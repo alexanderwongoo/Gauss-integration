@@ -25,7 +25,7 @@ def diff_x(n): #计算n-1legendre项式的导数
     temp=diff(func(n-1,x),x)
     return temp
 
-def search_xi(n): #找到根节点
+def search_xi(n): #找到插值节点
     t = diff_x(n)
     t = t.as_poly()
     xi=np.roots(t.all_coeffs())
