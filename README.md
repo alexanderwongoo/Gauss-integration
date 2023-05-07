@@ -1,2 +1,2 @@
 # Gauss-integration
-XTU numerical caculation wrok
+XTU numerical caculation work
